@@ -22,10 +22,10 @@
     <div class="container nav-container">
       <h1 class="logo-heading">Fun Bus</h1>
       <nav class="nav">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About Us</a>
-        <a class="nav-link" href="#">Blog</a>
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="index.html">About Us</a>
+        <a class="nav-link" href="index.html">Blog</a>
+        <a class="nav-link" href="index.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -61,6 +61,30 @@
       <h2>Pick Your Destination</h2>
       <p>Expedition excursion design darn excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
       <img src="img/destination.jpg" alt="Second slide">
+      <div id="chooseDialog" class="off">
+        <form action="/action_page.php">
+          <h1>SIGN UP</h1>
+          <div class="icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="formcontainer">
+          <div class="formContainer">
+            <label for="uname"><strong>Username</strong></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="mail"><strong>E-mail</strong></label>
+            <input type="text" placeholder="Enter E-mail" name="mail" required>
+            <label for="psw"><strong>Password</strong></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+          </div>
+          <button type="submit"><strong>SIGN UP</strong></button>
+          <div class="formContainer">
+            <label style="padding-left: 15px">
+            <input type="checkbox"  checked="checked" name="remember"> Remember me
+            </label>
+            <span class="psw"><a href="#">Forgot password?</a></span>
+          </div>
+        </form>
+      </div>
     </section>
     <section class="content-pick">
 
