@@ -167,12 +167,16 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .container {
     width: 90%;
     margin: 0 5%;
   }
+}
+.off {
+  display: none !important;
 }
 .main-navigation {
   width: 100%;
@@ -349,4 +353,75 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+#chooseDialog {
+  margin-top: 3%;
+  display: flex;
+  background-color: #ecd96e;
+  justify-content: center;
+  border-radius: 15px;
+}
+form {
+  border-radius: 20px;
+  border: 5px solid #f1f1f1;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  background-color: transparent;
+}
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.icon {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  color: #4286f4;
+  background-color: transparent;
+}
+button {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+}
+h1 {
+  text-align: center;
+  font-size: 18;
+}
+button:hover {
+  opacity: 0.8;
+}
+.formcontainer {
+  text-align: center;
+  margin: 24px 50px 12px;
+}
+.formContainer {
+  padding: 16px 0;
+  text-align: left;
+  background-color: transparent;
+}
+span.psw {
+  float: right;
+  padding-top: 0;
+  padding-right: 15px;
+}
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+#chooseDialog h1 {
+  margin-top: 2%;
 }
